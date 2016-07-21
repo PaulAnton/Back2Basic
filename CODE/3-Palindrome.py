@@ -11,3 +11,4 @@ def isPalindrome(aString):
             if aString[i]!=aString[n-i-1]:
                 return False
         return True
+        
