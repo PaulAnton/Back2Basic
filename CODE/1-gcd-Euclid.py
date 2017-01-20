@@ -10,8 +10,12 @@ def gcdRecur(a, b):
     elif b==0:
         return a
     elif a==b:
-        return a
-    elif a<b:
+        return b
+    elif b>a:
         return gcdRecur(a,b%a)
     else:
         return gcdRecur(b,a%b)
+
+
+
+
